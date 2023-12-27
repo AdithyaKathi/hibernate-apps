@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+  
+ <hibernate-mapping>  
+  <class name="criteria.pack4.Employe" table="EMPLOYE">
+    <id name="EMPIDNO"></id>
+    <property name="EMPNAME"></property>
+    <property name="EMPJOB"></property>
+    <property name="EMPSAL"></property>
+    <property name="HIREDATE"></property>
+  </class>  
+ </hibernate-mapping>  

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+  <class name="com.abc.pack.College" table="clgy100" discriminator-value="college">
+    <id name="id">
+     <generator class="increment"></generator>
+    </id>
+    <discriminator column="type" type="string"></discriminator>
+    <property name="name"></property>
+    
+    <subclass name="com.abc.pack.Student" discriminator-value="student">
+      <property name="std"></property>
+      <property name="cgpa"></property>
+    </subclass>
+    
+    <subclass name="com.abc.pack.Faculty" discriminator-value="faculty">
+     <property name="subject"></property>
+     <property name="salary"></property>
+    </subclass>
+    
+    <subclass name="com.abc.pack.Library" discriminator-value="library">
+      <property name="bookPrice"></property>
+    </subclass>
+  
+  </class> 
+ </hibernate-mapping>

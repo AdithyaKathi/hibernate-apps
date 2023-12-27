@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+  
+ <hibernate-mapping>  
+ 
+  <class name="com.mypack5.Question" table="qbag100">
+    
+    <id name="qid">  
+     <generator class="increment"></generator>  
+    </id>   
+    
+    <property name="qname"></property> 
+     
+    <bag name="answers" table="a100">
+     <key column="qid"></key>
+     <element column="answer" type="string"></element>
+    </bag>
+    
+  </class>  
+  
+ </hibernate-mapping>  

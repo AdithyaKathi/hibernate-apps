@@ -1,0 +1,12 @@
+127.0.0.1 - - [13/Dec/2023:16:22:06 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:22:10 +0530] "GET /hibernate_webproject/ HTTP/1.1" 200 400
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:22:11 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:23:16 +0530] "GET /hibernate_webproject/ HTTP/1.1" 200 412
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:23:40 +0530] "POST /hibernate_webproject/register.jsp HTTP/1.1" 500 4029
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:24:30 +0530] "POST /hibernate_webproject/register.jsp HTTP/1.1" 500 4029
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:24:47 +0530] "GET /hibernate_webproject/index.jsp HTTP/1.1" 200 398
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:24:48 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:24:55 +0530] "GET /hibernate_webproject/register.jsp?no=1&coursename=Hibernate&courseprice=11000 HTTP/1.1" 500 4029
+127.0.0.1 - - [13/Dec/2023:16:29:21 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:29:22 +0530] "GET /hibernate_webproject/ HTTP/1.1" 200 398
+0:0:0:0:0:0:0:1 - - [13/Dec/2023:16:29:44 +0530] "GET /hibernate_webproject/register.jsp?no=1&coursename=Hibernate&courseprice=11000 HTTP/1.1" 200 206

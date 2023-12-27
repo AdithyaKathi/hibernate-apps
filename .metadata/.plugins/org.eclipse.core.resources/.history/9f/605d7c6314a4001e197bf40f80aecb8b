@@ -1,0 +1,13 @@
+package pack1;
+
+import java.util.*;
+
+public class Employee {
+	
+	private int empid;
+	private String name;
+	private Question ad;
+	
+	
+	
+}

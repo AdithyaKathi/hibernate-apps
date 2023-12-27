@@ -1,0 +1,11 @@
+127.0.0.1 - - [12/Dec/2023:17:05:57 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Dec/2023:17:05:59 +0530] "GET /hibernate_webproject/index.jsp HTTP/1.1" 200 396
+0:0:0:0:0:0:0:1 - - [12/Dec/2023:17:06:00 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [12/Dec/2023:17:06:15 +0530] "POST /hibernate_webproject/register.jsp HTTP/1.1" 500 4029
+127.0.0.1 - - [12/Dec/2023:21:05:15 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Dec/2023:21:05:16 +0530] "GET /hibernate_webproject/index.jsp HTTP/1.1" 200 396
+0:0:0:0:0:0:0:1 - - [12/Dec/2023:21:05:17 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [12/Dec/2023:21:05:32 +0530] "POST /hibernate_webproject/register.jsp HTTP/1.1" 500 4019
+127.0.0.1 - - [12/Dec/2023:21:22:55 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Dec/2023:21:22:56 +0530] "GET /hibernate_webproject/index.jsp HTTP/1.1" 200 396
+0:0:0:0:0:0:0:1 - - [12/Dec/2023:21:23:04 +0530] "POST /hibernate_webproject/register.jsp HTTP/1.1" 500 4019

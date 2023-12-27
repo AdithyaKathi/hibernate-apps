@@ -1,0 +1,6 @@
+127.0.0.1 - - [16/Dec/2023:00:42:31 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [16/Dec/2023:00:42:35 +0530] "GET /assignment_hibernate_web/index.jsp HTTP/1.1" 200 413
+0:0:0:0:0:0:0:1 - - [16/Dec/2023:00:42:35 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [16/Dec/2023:00:42:46 +0530] "GET /assignment_hibernate_web/entry?id=3&name=keyboard&price=700 HTTP/1.1" 404 785
+0:0:0:0:0:0:0:1 - - [16/Dec/2023:00:44:47 +0530] "GET /assignment_hibernate_web/index.jsp HTTP/1.1" 200 420
+0:0:0:0:0:0:0:1 - - [16/Dec/2023:00:45:10 +0530] "GET /assignment_hibernate_web/register.jsp?id=3&name=keyboard&price=700 HTTP/1.1" 200 149

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+  
+ <hibernate-mapping>  
+  <class name="com.mypack4.College" table="college100">  
+    <id name="cid">  
+     <generator class="increment"></generator>  
+    </id>   
+    <property name="cname"></property>    
+    
+    
+    <joined-subclass name="com.mypack4.Branch1" table="branch100">
+     <key column="id1"></key>
+     <property name="bid"></property>
+     <property name="bname"></property>
+    </joined-subclass>
+    
+    <joined-subclass name="com.mypack4.Branch2" table="branch200">
+     <key column="id1"></key>
+     <property name="bid2"></property>
+     <property name="bname2"></property>
+    </joined-subclass>
+    
+    
+    
+  </class>  
+            
+ </hibernate-mapping>

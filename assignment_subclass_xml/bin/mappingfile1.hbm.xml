@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+  
+ <hibernate-mapping>  
+  <class name="com.mypack4.Employee" table="employeexx100">  
+    <id name="id">  
+     <generator class="increment"></generator>  
+    </id>   
+    <property name="name"></property>    
+    
+    
+    <joined-subclass name="com.mypack4.Job" table="jobxx100">
+     <key column="id1"></key>
+     <property name="designation"></property>
+     <property name="salary"></property>
+    </joined-subclass>
+    
+    <joined-subclass name="com.mypack4.Company" table="compxx100">
+     <key column="id1"></key>
+     <property name="cname"></property>
+     <property name="location"></property>
+    </joined-subclass>
+    
+    
+    
+  </class>  
+            
+ </hibernate-mapping>

@@ -1,0 +1,9 @@
+INDEX VERSION 1.132
+C:\Users\LENOVO\Desktop\Hibernate Examples\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3536436413.index
+\assignment_hibernate_web\src\main\java
+C:\Users\LENOVO\Desktop\Hibernate Examples\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3447556981.index
+\adhits\src\main\java
+C:\Users\LENOVO\Desktop\Hibernate Examples\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1457139560.index
+\assignment_hib_web\src\main\java
+C:\Users\LENOVO\Desktop\Hibernate Examples\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2937769295.index
+\hibernate_webproject\src\main\java

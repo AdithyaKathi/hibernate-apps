@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>  
+  <class name="com.abc.mypack.Account" table="accy100" discriminator-value="acc">
+    <id name="id">
+     <generator class="increment"></generator>
+    </id>
+    <discriminator column="type" type="string"></discriminator>
+    <property name="name"></property>
+    
+    <subclass name="com.abc.mypack.CreditCard" discriminator-value="credit">
+      <property name="cbalance"></property>
+    </subclass>
+    
+    <subclass name="com.abc.mypack.DebitCard" discriminator-value="debit">
+     <property name="dbalance"></property>
+    </subclass>
+    
+    <subclass name="com.abc.mypack.GoldLoan" discriminator-value="gold">
+      <property name="loanamount"></property>
+    </subclass>
+    
+    <subclass name="com.abc.mypack.HouseLoan" discriminator-value="house">
+     <property name="loanemi"></property>
+    </subclass>
+  
+  </class> 
+ </hibernate-mapping>

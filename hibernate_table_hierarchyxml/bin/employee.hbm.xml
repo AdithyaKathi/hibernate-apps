@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+  
+ <hibernate-mapping>  
+  <class name="com.abc.mypack2.Employee100" table="empy100" discriminator-value="emp">
+    <id name="id">
+     <generator class="increment"></generator>
+    </id>
+    <discriminator column="type" type="string"></discriminator>
+    <property name="name"></property>
+    
+    <subclass name="com.abc.mypack2.Job100" discriminator-value="job">
+      <property name="designation"></property>
+      <property name="salary"></property>
+    </subclass>
+    
+    <subclass name="com.abc.mypack2.Company100" discriminator-value="company">
+     <property name="cname"></property>
+     <property name="location"></property>
+    </subclass>
+  
+  </class> 
+ </hibernate-mapping>  

@@ -1,0 +1,34 @@
+package pack1;
+
+import org.hibernate.*;
+import java.util.*;
+import org.hibernate.boot.*;
+import org.hibernate.boot.registry.*;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		StandardServiceRegistry ssr = new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
+		Metadata meta = new MetadataSources(ssr).getMetadataBuilder().build();
+		SessionFactory factory = meta.getSessionFactoryBuilder().build();
+		Session session = factory.openSession();
+		Transaction t = session.beginTransaction();
+		
+		Question q1 = new Question();
+		q1.setQname("1. What Is Java?");
+		Question q2 = new Question();
+		q2.setQname("2. What Is C?");
+		
+		List<Answer> list1 = new ArrayList<>(); 
+		
+		t.commit();
+		
+		System.out.println("Saved Successfully");
+		factory.close();
+		session.close();
+		
+	}
+
+}

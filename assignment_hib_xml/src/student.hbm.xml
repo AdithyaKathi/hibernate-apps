@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+  
+ <hibernate-mapping>  
+  <class name="com.xml.pack.Student1" table="mytabze1000">  
+    <id name="no">  
+     <generator class="assigned"></generator>  
+    </id>  
+            
+    <property name="name"></property>  
+    <property name="marks"></property>  
+            
+  </class>  
+            
+ </hibernate-mapping>
